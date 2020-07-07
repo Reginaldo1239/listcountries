@@ -46,14 +46,7 @@ small{
     background-repeat: no-repeat;
     
 }
-@media only  screen and (max-width: 600px) {
-    .boxCountry1{
-        width: 50%;
-    }
-    .boxCountry .boxText h2{
-        font-size: 22px;
-    }
-}
+
 @media only  screen and (max-width: 600px) {
     .boxCountry1{
         width: 100%;
@@ -61,4 +54,4 @@ small{
     .boxCountry .boxText h2{  
         font-size: 22px;
     }
-} 
+}  
