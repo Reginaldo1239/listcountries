@@ -9,7 +9,7 @@ export default function BoxCountry (props){
     console.log(dataCountry)
     return(
 
-        <div className ='boxCountry1'>
+        <div className ='boxCountry1' >
         <div className="boxCountry">
         <Link to={`detail_country/${name}`}>
             <div  className="boxImg" style={ {backgroundImage: "url(" + flag + ")" }} >     

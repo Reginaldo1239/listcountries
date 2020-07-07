@@ -58,7 +58,7 @@ small{
     .boxCountry1{
         width: 100%;
     }
-    .boxCountry .boxText h2{
+    .boxCountry .boxText h2{ 
         font-size: 22px;
     }
 } 
