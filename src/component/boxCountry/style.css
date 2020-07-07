@@ -50,4 +50,15 @@ small{
     .boxCountry1{
         width: 50%;
     }
+    .boxCountry .boxText h2{
+        font-size: 22px;
+    }
 }
+@media  screen and (max-width: 450px) {
+    .boxCountry1{
+        width: 100%;
+    }
+    .boxCountry .boxText h2{
+        font-size: 22px;
+    }
+} 

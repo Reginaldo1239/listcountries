@@ -9,14 +9,14 @@ export default function Filter(props){
     return(
         <div className="filter">
                 <div className="filterRegion" onClick={()=>setOptionCountryVisible(!optionCountryVisible)} >
-                    <span>Filtro por região</span>
+                    <span>Filtro</span>
                     <div className="icon">
                     <IconContext.Provider value={{ color: "white", className: "global-class-name" }}>
                             <div>
                             <IoIosArrowRoundDown />
                             </div>
                          </IconContext.Provider>
-                     </div>
+                     </div> 
                 </div>
                 {optionCountryVisible&&
                 <div className="optionRegion">  
