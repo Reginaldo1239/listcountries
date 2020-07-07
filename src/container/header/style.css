@@ -1,0 +1,21 @@
+header{
+    background-color:  hsl(209, 23%, 22%);
+    font-size: 18px;
+    color:white;
+    padding: 10px 5px;
+    font-weight: 400;
+    width: 100%;
+}
+
+header .flex {
+    justify-content: space-between;
+}
+header .title {
+    display: inline-block;
+} 
+header .buttonChangeColor{
+    display: inline-block; 
+} 
+.hea{
+    margin: 0 auto;
+}

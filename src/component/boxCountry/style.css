@@ -1,0 +1,29 @@
+.boxCountry1{
+    width: 25%;
+    align-content: space-between;
+
+    
+}
+.boxCountry{
+    align-content: space-between;
+    margin: 30px 20px ;
+    background-color:  hsl(209, 23%, 22%);
+    border-radius: 5px;
+    color:white; 
+} 
+.boxCountry img{
+    width: 100%;
+
+}
+.boxCountry .boxText{
+    padding: 20px; 
+} 
+.boxCountry .boxText h2{
+    font-weight: 300;
+}
+.boxCountry  .description{
+    margin:10px 0 ;
+}
+.boxCountry .description strong{
+    font-weight: 300;
+}

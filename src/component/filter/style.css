@@ -1,0 +1,33 @@
+.filter{
+    color:white;
+    position: relative;
+    cursor: pointer;
+}
+.filterRegion{
+
+    background-color: hsl(209, 23%, 22%);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.filter .icon{
+    position: absolute;
+    right: 0;
+    top:50%;
+    transform: translateY(-30%);
+} 
+
+.filter .optionRegion{
+    width: 100%;
+    margin-top: 5px;
+    background-color: hsl(209, 23%, 22%);
+    padding: 10px;
+    position: absolute;
+    border-radius: 5px;
+}
+.filter .singleRegion{
+    margin: 10px 0; 
+    cursor: pointer;
+}
+.filter .singleRegion:hover{
+    opacity: 0.7;
+}

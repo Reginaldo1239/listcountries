@@ -1,0 +1,8 @@
+
+.searchAndFilter{
+    margin: 10px 20px;
+    width: 100%;
+}
+.searchAndFilter .flex{
+    justify-content: space-between;
+}   

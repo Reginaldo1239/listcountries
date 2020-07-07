@@ -1,0 +1,32 @@
+.search{
+    position: relative;
+    display: inline-block;
+    background-color:  hsl(209, 23%, 22%);
+    padding: 10px;
+    border-radius: 5px;
+}
+.search input{
+    background-color:  hsl(209, 23%, 22%);
+    border: none;
+    color:white;
+    padding-left: 25px;
+
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }
+
+.iconSearch{
+    position: absolute;
+}
+
+ 

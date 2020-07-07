@@ -1,0 +1,15 @@
+
+.home{
+
+    width: '100%';
+}  
+
+.home main.flex{
+    flex-wrap: wrap;
+
+    justify-content: start;
+   
+} 
+.home main{
+    margin-top: 50px;
+}
