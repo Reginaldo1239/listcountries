@@ -5,12 +5,12 @@ import './style.css';
 export default function SearchAndFilter(props){
     return(
         <div className="searchAndFilter center">
-            <div className="flex">
+            <div className="flex center"> 
                 <Search eventSearch={(value)=>props.eventSearch(value)} ></Search>
                 <Filter
-                    eventSelectCountry={(value)=>props.eventSelectCountry(value)}
+                    eventFilterRegion={(value)=>props.eventFilterRegion(value)}
                 ></Filter>
             </div>
         </div>
     )
-}    
+}     

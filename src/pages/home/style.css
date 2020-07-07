@@ -1,15 +1,14 @@
 
 .home{
-
     width: '100%';
 }  
 
 .home main.flex{
     flex-wrap: wrap;
+    align-items: stretch;
 
-    justify-content: start;
    
 } 
 .home main{
-    margin-top: 50px;
+    margin-top: 30px;
 }

@@ -1,0 +1,47 @@
+.detailCounty main{
+   color:white;
+
+} 
+.detailCounty main .imgCountry,.descriptionCountry{
+    margin-top: 100px;
+    width: 50%;
+}   
+.detailCounty main.flex{
+   flex-wrap: wrap;
+}
+.detailCounty main .descriptionCountry  .boxTitle{
+    width: 100%;
+}
+.detailCounty main .descriptionCountry .boxText{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.detailCounty main .imgCountry img{
+    width: 80%;
+    margin-left: 20px;
+}   
+
+.detailCounty main .descriptionCountry strong{
+    font-weight: 400;
+}
+@media  screen and (max-width: 500px) {
+
+
+   
+    .detailCounty main .imgCountry,.descriptionCountry{
+        margin: 0 20px;
+        margin-top: 20px;
+        width: 100%; 
+    }   
+    .detailCounty main .imgCountry img{
+        width: 100%;
+        margin-left: 0px;
+    }   
+    .detailCounty main .descriptionCountry .boxText{
+        width: 100%;
+        margin-top: 20px;
+    }
+   
+    
+} 

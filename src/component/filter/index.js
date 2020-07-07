@@ -20,21 +20,21 @@ export default function Filter(props){
                 </div>
                 {optionCountryVisible&&
                 <div className="optionRegion">  
-                        <div className="singleRegion" onClick={()=>props.eventSelectCountry('africa')}>
+                        <div className="singleRegion" onClick={()=>{props.eventFilterRegion('africa');setOptionCountryVisible(false)}}>
                                 <span>Africa</span>
                             </div>
-                            <div className="singleRegion" onClick={()=>props.eventSelectCountry('americas')} >
+                            <div className="singleRegion" onClick={()=>{props.eventFilterRegion('americas');setOptionCountryVisible(false)}} >
                                 <span>America</span>
                                 </div>
-                                <div className="singleRegion" onClick={()=>props.eventSelectCountry('asia')} >
+                                <div className="singleRegion" onClick={()=>{props.eventFilterRegion('asia');setOptionCountryVisible(false) }} >
                                 <span>Asia</span>
                                 </div>
-                                <div className="singleRegion" onClick={()=>props.eventSelectCountry('europe')} >
+                                <div className="singleRegion" onClick={()=>{props.eventFilterRegion('europe');setOptionCountryVisible(false)}} >
                                  <span>Europa</span>
                                 </div>
-                                <div className="singleRegion" onClick={()=>props.eventSelectCountry('oceania')}  >
+                                <div className="singleRegion" onClick={()=>{props.eventFilterRegion('oceania');setOptionCountryVisible(false)}}  >
                                     <span>Oceania</span>
-                            </div>
+                            </div> 
                     </div>
 }
  

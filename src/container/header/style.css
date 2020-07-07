@@ -12,9 +12,11 @@ header .flex {
 }
 header .title {
     display: inline-block;
+    margin-left: 20px;
 } 
 header .buttonChangeColor{
     display: inline-block; 
+    margin-right: 20px;
 } 
 .hea{
     margin: 0 auto;

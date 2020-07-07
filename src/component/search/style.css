@@ -4,6 +4,7 @@
     background-color:  hsl(209, 23%, 22%);
     padding: 10px;
     border-radius: 5px;
+    margin-left: 20px;
 }
 .search input{
     background-color:  hsl(209, 23%, 22%);
@@ -27,6 +28,7 @@
 
 .iconSearch{
     position: absolute;
+    cursor: pointer;
 }
 
  

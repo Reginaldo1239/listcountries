@@ -1,26 +1,40 @@
 import React from 'react';
 import './style.css';
+import {
+    Link,
+  } from "react-router-dom";
 export default function BoxCountry (props){
-
+    let {dataCountry} =props;
+    let {name,flag,population,capital,region}=dataCountry;
+    console.log(dataCountry)
     return(
+
         <div className ='boxCountry1'>
         <div className="boxCountry">
-            <img src={'https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png'}></img>
+        <Link to={`detail_country/${name}`}>
+            <div  className="boxImg" style={ {backgroundImage: "url(" + flag + ")" }} >     
+                </div>
             <div className="boxText">
-                    <h2>Brazil</h2>
+           
+                    <h2>{name}</h2>
                <div className="description">
-                   <span> <strong> População:</strong> <small>12344</small></span>
+             
+                   <span> <strong> População: </strong> <small>{population}</small></span>
                    </div>     
                    <div className="description">
-                   <span><strong>Região:</strong><small>1234</small></span>
+                   <span><strong>Região: </strong><small>{region}</small></span>
                    </div>     
                    <div className="description">
-                   <span><strong>Capital:</strong><small>1234</small></span>
+                <span><strong>Capital: </strong><small>{capital}</small></span>
                    </div>    
-
+                
             </div>
+            </Link>
         </div>
+        
         </div>
+
+
     )
 }
 

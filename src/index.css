@@ -7,6 +7,10 @@
   body{
     background-color: hsl(207, 26%, 17%);
   }
+  a{
+    text-decoration: none;
+    
+  }
 .flex{
   display: flex;
 }

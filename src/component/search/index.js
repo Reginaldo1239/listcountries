@@ -14,7 +14,7 @@ export default function Search (props){
                 </IconContext.Provider>         
             </div>
             <input 
-            onChange={(event)=>setValue(event.target.text)}
+            onChange={(event)=>{setValue(event.target.value);props.eventSearch(event.target.value)} }
             placeholder={'buscar pais'}
             value={value}></input>
         </div>

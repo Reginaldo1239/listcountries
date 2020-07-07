@@ -1,8 +1,5 @@
 .boxCountry1{
     width: 25%;
-    align-content: space-between;
-
-    
 }
 .boxCountry{
     align-content: space-between;
@@ -13,7 +10,7 @@
 } 
 .boxCountry img{
     width: 100%;
-
+ 
 }
 .boxCountry .boxText{
     padding: 20px; 
@@ -26,4 +23,31 @@
 }
 .boxCountry .description strong{
     font-weight: 300;
+}
+h2{
+    color:white;
+}
+span{
+    color:white;
+    font-size: 17px;
+}
+strong{
+    font-size: 17px;
+    font-weight:700 ;
+}
+small{
+    font-size: 15px;
+}
+
+
+.boxImg{
+    padding: 80px 0;
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    
+}
+@media  screen and (max-width: 750px) {
+    .boxCountry1{
+        width: 50%;
+    }
 }
