@@ -11,10 +11,10 @@ export default function BoxCountry (props){
 
         <div className ='boxCountry1' >
         <div className="boxCountry">
-        <Link to={`/detail_country/${name}`}>
+        <Link to={`/listcountries/detail_country/${name}`}>
             <div  className="boxImg" style={ {backgroundImage: "url(" + flag + ")" }} >     
                 </div>
-            <div className="boxText">
+            <div className="boxText"> 
            
                     <h2>{name}</h2>
                <div className="description">
@@ -27,7 +27,7 @@ export default function BoxCountry (props){
                    <div className="description">
                 <span><strong>Capital: </strong><small>{capital}</small></span>
                    </div>    
-                 
+                  
             </div>
             </Link>
         </div>
