@@ -5,6 +5,7 @@ header{
     padding: 10px 5px;
     font-weight: 400;
     width: 100%;
+  
 }
 
 header .flex {
@@ -13,11 +14,14 @@ header .flex {
 header .title {
     display: inline-block;
     margin-left: 20px;
+   
+} 
+header .title span{
+    font-size: 40px;
+   
 } 
 header .buttonChangeColor{
     display: inline-block; 
     margin-right: 20px;
 } 
-.hea{
-    margin: 0 auto;
-}
+

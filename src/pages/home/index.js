@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Header from '../../container/header';
+import Header from '../../component/header';
 import SearchAndFilter from '../../container/searchAndFilter';
 import BoxCountry from '../../component/boxCountry';
 import {get }from '../../api'
