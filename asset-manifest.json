@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/listcountries/static/css/main.22806c44.chunk.css",
-    "main.js": "/listcountries/static/js/main.8635f9ab.chunk.js",
-    "main.js.map": "/listcountries/static/js/main.8635f9ab.chunk.js.map",
+    "main.js": "/listcountries/static/js/main.65174198.chunk.js",
+    "main.js.map": "/listcountries/static/js/main.65174198.chunk.js.map",
     "runtime-main.js": "/listcountries/static/js/runtime-main.ec56af33.js",
     "runtime-main.js.map": "/listcountries/static/js/runtime-main.ec56af33.js.map",
     "static/js/2.fbdaffa4.chunk.js": "/listcountries/static/js/2.fbdaffa4.chunk.js",
     "static/js/2.fbdaffa4.chunk.js.map": "/listcountries/static/js/2.fbdaffa4.chunk.js.map",
     "index.html": "/listcountries/index.html",
-    "precache-manifest.b17dcebd6f2c908db7d24dad2bcea649.js": "/listcountries/precache-manifest.b17dcebd6f2c908db7d24dad2bcea649.js",
+    "precache-manifest.652210514d763d00168ad87b21cfd7c1.js": "/listcountries/precache-manifest.652210514d763d00168ad87b21cfd7c1.js",
     "service-worker.js": "/listcountries/service-worker.js",
     "static/css/main.22806c44.chunk.css.map": "/listcountries/static/css/main.22806c44.chunk.css.map",
     "static/js/2.fbdaffa4.chunk.js.LICENSE.txt": "/listcountries/static/js/2.fbdaffa4.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.ec56af33.js",
     "static/js/2.fbdaffa4.chunk.js",
     "static/css/main.22806c44.chunk.css",
-    "static/js/main.8635f9ab.chunk.js"
+    "static/js/main.65174198.chunk.js"
   ]
 }
