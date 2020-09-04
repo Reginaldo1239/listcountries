@@ -16,7 +16,8 @@ export default function Routers(){
             <Switch>
                  <Route  exact={true} path='/' component={Home} ></Route>
                  <Route path='/detail_country/:name' component={DetailCountry}></Route>
+            
             </Switch>
-        </Router> 
-    )
-}
+        </Router>   
+    ) 
+} 
