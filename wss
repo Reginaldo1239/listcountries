@@ -1,0 +1,15 @@
+[33m9bcb24f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m HEAD@{0}: reset: moving to 9bcb24f
+[33mb243a2f[m[33m ([m[1;31morigin/master[m[33m)[m HEAD@{1}: reset: moving to b243a2f
+[33mb243a2f[m[33m ([m[1;31morigin/master[m[33m)[m HEAD@{2}: reset: moving to b243a2f
+[33m9bcb24f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m HEAD@{3}: reset: moving to 9bcb24f
+[33mb243a2f[m[33m ([m[1;31morigin/master[m[33m)[m HEAD@{4}: commit: .
+[33m9bcb24f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m HEAD@{5}: commit: deploy ajustando layout mobile4
+[33m3483016[m HEAD@{6}: commit: deploy ajustando layout mobile3
+[33m8bc9113[m HEAD@{7}: commit: deploy ajustando layout mobile1
+[33m4c72867[m HEAD@{8}: commit: deploy ajustando layout mobile1
+[33m8f37baf[m HEAD@{9}: commit: deploy ajustando layout mobile
+[33mf28b94c[m HEAD@{10}: commit: deploy
+[33mdcbae51[m HEAD@{11}: commit: deploy
+[33ma13d487[m HEAD@{12}: commit: finalizado
+[33mccb9e0c[m HEAD@{13}: commit: first commit
+[33m99d7972[m HEAD@{14}: commit (initial): Initialize project using Create React App

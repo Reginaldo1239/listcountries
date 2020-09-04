@@ -3,7 +3,7 @@ import {
 
     useParams
   } from "react-router-dom";
-import Header from '../../container/header'
+import Header from '../../component/header'
 import {get} from '../../api';
 import './style.css';
 export default function DetailCountry(){
